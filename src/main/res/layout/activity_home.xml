@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools   = "http://schemas.android.com/tools"
+    android:layout_width  = "match_parent"
+    android:layout_height = "match_parent"
+    android:gravity       = "center">
+
+
+    <EditText
+        android:id="@+id/keywordText"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="-50dp"
+        android:ems="10"
+        android:hint="@string/keywords"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="136dp"
+        android:text="@string/search_books"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="-3dp"
+        android:onClick="ViewAccount"
+        android:text="@string/my_account" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="80dp"
+        android:onClick="SignOut"
+        android:text="@string/sign_out" />
+</RelativeLayout>
