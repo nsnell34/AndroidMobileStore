@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookstore</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<form method="post" action="login.php">
+<label>Name:</label>
+<input type="text" name="name" size="25" value="">
+<input type="submit" name="act" value="Enter">
+<input type="submit" name="act" value="Clear System">
+
+</form>
+
+<form method="post" action="check.php">
+    <label for="displayPassword">Display Password:</label>
+    <input type="password" id="displayPassword" name="displayPassword">
+    <input type="submit" name="act" value="Display Source">
+    <input type="submit" name="act" value="Display Android">
+    <input type="hidden" name="interface" value="2">
+
+</form>

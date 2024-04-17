@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+</head>
+<body>
+
+<form method="post" action="adminPage.php">
+    <label for="Title">Title:</label>
+    <input type="text" name="Title" size="25" value="">
+    <label for="ISBN">ISBN:</label>
+    <input type="text" name="ISBN" size="25" value="">
+    <label for="Price">Price:</label>
+    <input type="text" name="Price" size="25" value="">
+    <input type="submit" name="act" value="Enter">
+    <input type="submit" name="act" value="Back">
+
+</form>
+<form method="post" action="check.php">
+    <label for="displayPassword">Display Password:</label>
+    <input type="password" id="displayPassword" name="displayPassword">
+    <input type="submit" name="act" value="Display Source">
+    <input type="hidden" name="interface" value="3">
+
+</form>
+</body>
+</html>
